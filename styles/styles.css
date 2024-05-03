@@ -346,7 +346,7 @@ footer {
     }
     
     main {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     button {
@@ -373,7 +373,6 @@ footer {
     }
     .experience {
         padding: 30px;
-        font-size: 12px;
         box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.756);
     }
     
@@ -387,9 +386,6 @@ footer {
     .project-card img {
         scale: 0.8;
     }
-    .project-card p {
-        font-size: 12px;
-    }
 
     .contact-section {
         margin: 0;
@@ -398,7 +394,7 @@ footer {
         scale: 0.6;
     }
     .contact p {
-        font-size: 32px;
+        font-size: 24px;
     }
 
   }
