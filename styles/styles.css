@@ -303,8 +303,8 @@ footer {
 
 
 @keyframes slideIn {
-    from {transform: translateX(100px);}
-    to {transform: translateX(0px);}
+    from {transform: translateY(50px);}
+    to {transform: translateY(0px);}
 }
 
 
@@ -326,6 +326,11 @@ footer {
     .intro-section {
         flex-direction: column;
     }
+    .intro-text {
+        padding-left: 0;
+        text-align: center;
+        align-items: center;
+    }
     .contact {
         scale: 0.7;
     }
@@ -341,9 +346,12 @@ footer {
     }
     
     main {
-        font-size: 12px;
+        font-size: 16px;
     }
 
+    button {
+        padding: 8px;
+    }
 
     .about-section {
         padding: 40px;
@@ -389,4 +397,8 @@ footer {
     .contact {
         scale: 0.6;
     }
+    .contact p {
+        font-size: 32px;
+    }
+
   }
