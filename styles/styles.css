@@ -393,6 +393,9 @@ footer {
     .contact {
         scale: 0.6;
     }
+    .contact:hover {
+        scale: 1.05;
+    }
     .contact p {
         font-size: 24px;
     }
