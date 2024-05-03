@@ -1,0 +1,392 @@
+html,body{
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(8, 38, 46);
+    color: white;
+}
+
+header {
+    font-family: serif;
+    color: white;
+    background-color: rgb(8, 38, 46);
+    position: relative;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    color: white;
+    padding: 2vw;
+}
+
+.header-logo {
+    display: inline-flex;
+    margin: 0;
+    padding: 2vw;
+    padding-left: 3vw;
+    font-weight: bold;
+    font-size: 36px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.header-buttons {
+    position: absolute;
+    right: 1vw;
+    top: 25%;
+}
+button {
+    background-color: rgb(187, 253, 202);
+    color: rgb(8, 38, 46);
+    padding: 0.5vw;
+    border: none;
+    border-radius: 10px;
+    margin-right: 1vw;
+    font-weight: bold;
+    vertical-align: middle;
+    transition: all 0.2s;
+}
+button:hover {
+    cursor: pointer;
+    scale: 1.12;
+    border: 1.5px solid rgb(187, 253, 202);
+    background-color: rgb(8, 38, 46);
+    color: rgb(187, 253, 202);
+}
+
+
+.intro-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    background-color: rgb(51, 112, 127);
+    height: 250px;
+    width: 260px;
+    border-radius: 500px;
+    box-shadow: 0px 0px 150px rgba(187, 253, 202, 0.186);
+    transition: all 0.2s;
+}
+.profile-pic:hover {
+    box-shadow: 0px 0px 150px rgba(187, 253, 202, 0.249);
+}
+
+
+.intro-text {
+    display: flex;
+    padding-left: 150px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-shadow: 0px 0px 4px black;
+    line-height: 55px;
+}
+.intro-text h1 {
+    animation: slideIn 1s ease;    
+}
+.intro-text h2 {
+    animation: slideIn 2s ease;    
+}
+.intro-text h3 {
+    animation: slideIn 3s ease;    
+}
+
+
+.about-section {
+    border-radius: 50px;
+    box-shadow: 0px 0px 80px rgba(187, 253, 202, 0.048);
+    padding: 4vw;
+    margin: 6vw;
+    font-family: sans-serif;
+    text-shadow: 0px 0px 4px black;
+    line-height: 44px;
+    transition: all 0.15s;
+}
+.about-section h1 {
+    margin-bottom: 60px;
+}
+
+.about-section p {
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.about-section:hover {
+    box-shadow: 8px 8px 80px rgba(187, 253, 202, 0.099);
+    scale: 1.01;
+}
+
+
+
+
+.skills-section {
+    border-radius: 50px;
+    box-shadow: 8px 8px 80px rgba(187, 253, 202, 0.048);
+    padding: 4vw;
+    margin: 6vw;
+    font-family: sans-serif;
+    text-shadow: 0px 0px 4px black;
+    text-align: center;
+    transition: all 0.15s;
+}
+.skills-container {
+    display: flex;
+    gap: 3vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-card {
+    height: 250px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.414);
+    text-align: center;
+    transition: all 0.15s;
+}
+.skill-card img {
+    height: 200px;
+    width: 150px;
+}
+
+.skill-card p {
+    font: serif;
+}
+.skill-card:hover {
+    scale: 1.1;
+}
+
+
+
+.experience-section {
+    border-radius: 50px;
+    box-shadow: 8px 8px 80px rgba(187, 253, 202, 0.048);
+    padding: 4vw;
+    margin: 6vw;
+    font-family: sans-serif;
+    text-shadow: 0px 0px 4px black;
+    line-height: 44px;
+}
+
+
+.experience {
+    padding: 2vw;
+    border-radius: 2vw;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.678);
+    transition: all 0.15s;
+}
+.experience:hover {
+    scale: 1.02;
+}
+
+.experience p {
+    color: rgba(255, 255, 255, 0.777);
+}
+
+
+
+.portfolio-section {
+    border-radius: 50px;
+    box-shadow: 8px 8px 80px rgba(187, 253, 202, 0.048);
+    padding: 4vw;
+    margin: 6vw;
+    font-family: sans-serif;
+    text-shadow: 0px 0px 4px black;
+    line-height: 44px;
+}
+
+.projects-container {
+    display: flex;
+    gap: 3vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    width: 350px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.414);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.15s;
+}
+
+.project-card img {
+    height: 200px;
+    width: 300px;
+    align-self: center;
+}
+
+.project-card:hover {
+    scale: 1.02;
+}
+
+
+
+.contact-section {
+    border-radius: 50px;
+    box-shadow: 8px 8px 80px rgba(187, 253, 202, 0.048);
+    padding: 4vw;
+    margin: 6vw;
+    font-family: sans-serif;
+    text-shadow: 0px 0px 4px black;
+    line-height: 44px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    box-shadow: 2px 2px 8px black;
+    height: 70px;
+    width: 500px;
+    align-items: center;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 30px;
+    transition: all 0.15s;
+}
+.contact img {
+    height: 50px;
+}
+.contact p {
+    display: inline-block;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.contact:hover {
+    scale: 1.04;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+footer {
+    text-align: center;
+}
+
+#preloader {
+    background-color: rgb(8, 38, 46);
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+}
+
+
+
+@keyframes slideIn {
+    from {transform: translateX(100px);}
+    to {transform: translateX(0px);}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .header-logo {
+        font-size: 26px;
+    }
+    .header-buttons button {
+        font-size: 20px;
+    }
+    .intro-section {
+        flex-direction: column;
+    }
+    .contact {
+        scale: 0.7;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .header-logo {
+        font-size: 24px;
+    }
+    .header-buttons a {
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    main {
+        font-size: 12px;
+    }
+
+
+    .about-section {
+        padding: 40px;
+    }
+
+
+    .skills-container {
+        gap: 40px;
+        padding-bottom: 40px;
+    }
+    .skill-card img {
+        scale: 0.7;
+    }
+    
+
+    .experience-section {
+        margin: 0;
+        padding-bottom: 40px;
+    }
+    .experience {
+        padding: 30px;
+        font-size: 12px;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.756);
+    }
+    
+    
+    .project-card {
+        scale: 0.9;
+        padding: 10px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .project-card img {
+        scale: 0.8;
+    }
+    .project-card p {
+        font-size: 12px;
+    }
+
+    .contact-section {
+        margin: 0;
+    }
+    .contact {
+        scale: 0.6;
+    }
+  }
