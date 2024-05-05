@@ -215,8 +215,8 @@ button:hover {
 }
 
 .project-card {
-    width: 350px;
-    height: 650px;
+    width: 400px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     padding: 1vw;
@@ -235,7 +235,7 @@ button:hover {
 }
 
 .project-card:hover {
-    scale: 1.000005;
+    scale: 1.05;
 }
 
 
@@ -392,9 +392,6 @@ footer {
     }
     .contact {
         scale: 0.6;
-    }
-    .contact:hover {
-        scale: 1.05;
     }
     .contact p {
         font-size: 24px;
