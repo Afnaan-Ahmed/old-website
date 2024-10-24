@@ -78,14 +78,15 @@ button:hover {
 .profile-pic {
     background-color: rgb(51, 112, 127);
     height: 250px;
-    width: 260px;
+    width: 250px;
     border-radius: 500px;
     box-shadow: 0px 0px 150px rgba(255, 255, 255, 0.186);
     animation: slideIn 1s ease;    
     transition: all 0.2s;
+    border: white 4px solid;
 }
 .profile-pic:hover {
-    box-shadow: 0px 0px 150px rgba(255, 255, 255, 0.249);
+    box-shadow: 0px 0px 150px rgba(255, 255, 255, 0.418);
 }
 
 
