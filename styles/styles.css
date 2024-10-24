@@ -7,7 +7,7 @@ body {
     color: white;
     font-family: sans-serif;
     font-size: 24px;
-    background: linear-gradient(-45deg, #08262E, #005177, #4F305C);
+    background: linear-gradient(-45deg, #1E3A78, #05566f, #1E3A78);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 	height: 100vh;
@@ -83,7 +83,7 @@ button:hover {
     box-shadow: 0px 0px 150px rgba(255, 255, 255, 0.186);
     animation: slideIn 1s ease;    
     transition: all 0.2s;
-    border: white 4px solid;
+    border: #e0e0e0 4px solid;
 }
 .profile-pic:hover {
     box-shadow: 0px 0px 150px rgba(255, 255, 255, 0.418);
@@ -321,6 +321,7 @@ a {
 footer {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 18px;
 }
 
 
@@ -350,7 +351,7 @@ footer {
 
 @media screen and (max-width: 800px) {
     body {
-    background: linear-gradient(75deg, #0b313c, #04567c, #4F305C);
+    background: linear-gradient(75deg, #1E3A78, #05566f, #1E3A78);
 	background-size: 400% 400%;
     }
     /* remove hover effects for mobile devices  */
