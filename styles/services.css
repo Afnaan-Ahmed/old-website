@@ -3,6 +3,7 @@ body {
 }
 
 .intro-section {
+    margin-top: 40px;
     padding-top: 20px;
     padding-bottom: 30px;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.264);
@@ -244,6 +245,12 @@ body {
     }
     .pagespeed-section img {
         height: 250px;
+    }
+    .projects-container {
+        gap: 40px;
+    }
+    .project-card {
+        height: 400px;
     }
 
     .pricing-section {

@@ -52,10 +52,11 @@ button {
     padding: 0.5vw;
     border: none;
     border-radius: 10px;
-    margin-right: 1vw;
+    margin-right: 20px;
     font-weight: bold;
     vertical-align: middle;
     transition: all 0.2s;
+    font-size: 18px;
 }
 button:hover {
     cursor: pointer;
@@ -345,7 +346,6 @@ footer {
 
 @media screen and (max-width: 800px) {
     body {
-    margin-top: 30px;
     background: linear-gradient(75deg, #102a60, #093e6a, #15316d);
 	background-size: 400% 400%;
     }
@@ -366,7 +366,9 @@ footer {
     scale: none;
     }
 
-
+    header {
+        margin-top: 10px;
+    }
     .header-logo {
         font-size: 26px;
     }
@@ -484,5 +486,14 @@ footer {
 
   }
 
+  @media screen and (max-width:400px) {
+    .header-logo {
+        font-size: 20px;
+    }
+    .header-buttons button {
+        font-size: 8px;
+        margin-right: 0px;
+    }
+  }
 
 
