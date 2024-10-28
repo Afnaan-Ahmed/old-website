@@ -16,47 +16,47 @@ body {
 header {
     font-family: sans-serif;
     color: white;
-    position: relative;
-    top: 0;
-    display: flex;
-    flex-direction: row;
 }
 
 main {
     color: white;
-    padding: 2vw;
+    padding: 20px;
 }
 
 h1 {
     text-align: center;
 }
-
+.header {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 .header-logo {
-    display: inline-flex;
     margin: 0;
-    padding: 2vw;
-    padding-left: 3vw;
+    padding-left: 30px;
     font-weight: bold;
     font-size: 36px;
     text-shadow: 0px 0px 10px black;
 }
-
 .header-buttons {
-    position: absolute;
-    right: 1vw;
-    top: 25%;
+    margin-right: 20px;
+}
+.header-buttons button {
+    font-size: 16px;
 }
 button {
     background-color: rgb(187, 253, 202);
     color: rgb(8, 38, 46);
-    padding: 0.5vw;
+    padding: 10px;
     border: none;
     border-radius: 10px;
-    margin-right: 20px;
     font-weight: bold;
     vertical-align: middle;
     transition: all 0.2s;
-    font-size: 18px;
+    font-size: 14px;
 }
 button:hover {
     cursor: pointer;
@@ -401,6 +401,7 @@ footer {
 
   @media screen and (max-width: 500px) {
     .header-logo {
+        padding-left: 10px;
         font-size: 24px;
     }
     .header-buttons button {
@@ -492,7 +493,6 @@ footer {
     }
     .header-buttons button {
         font-size: 8px;
-        margin-right: 0px;
     }
   }
 
