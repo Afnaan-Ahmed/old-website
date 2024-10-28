@@ -406,7 +406,7 @@ footer {
     }
     .header-buttons button {
         padding: 5px;
-        font-size: 12px;
+        font-size: 16px;
         border-radius: 5px;
     }
     
@@ -492,7 +492,7 @@ footer {
         font-size: 20px;
     }
     .header-buttons button {
-        font-size: 8px;
+        font-size: 14px;
     }
   }
 
