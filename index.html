@@ -10,13 +10,15 @@
     <title>Mohammed Afnaan Ahmed</title>
     <link rel="icon" href="media/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="preconnect" crossorigin> 
 </head>
 <body>
     <header>
         <div class="header">
             <div class="header-logo">Afnaan Ahmed</div>
             <div class="header-buttons">
-                <button onclick="window.open ('resume.pdf')">Resume</button>
+                <button aria-label="button" onclick="location.href='services.html';">Services</button>
+                <button aria-label="button" onclick="window.open ('resume.pdf')">Resume</button>
             </div>
         </div>
     </header>
@@ -28,7 +30,7 @@
             <img class="profile-pic" src="media/profile-pic.webp" alt="profile-picture">
             <div class="intro-text">
                 <h1>Howdy! </h1>
-                <h2>It's Afnaan, <br>a creative frontend engineer who loves <br> blending aesthetics with functionality!
+                <h2>It's <span style="color: greenyellow;">Afnaan</span>, <br>a creative frontend engineer who loves <br> blending aesthetics with functionality!
                 </h2>
             </div>
         </div>
@@ -138,37 +140,30 @@
 
                 <div class="project-card">
                     <img src="media/restaurant.webp" alt="restaurant-website">
-                    <h2>Restaurant Website</h2>
+                    <h2>Green Bawarchi Restaurant</h2>
                     <p>This is a website that I designed for a local restaurant.</p>
-                    <button onclick="window.open('https:\/\/afnaan-ahmed.github.io/restaurant-website/')">Visit</button>
-                </div>
-              
-                <div class="project-card">
-                    <img src="media/blog-site.webp" alt="blog-site">
-                    <h2>Blog Site</h2>
-                    <p>This was a team project done during my internship at Devskillhub.</p>
-                    <button onclick="window.open('https:\/\/afnaan-ahmed.github.io/Simple-Blog-Site/')">Visit</button>
+                    <button aria-label="button" onclick="window.open('https:\/\/afnaanahmed.tech/green-bawarchi/')">Visit</button>
                 </div>
               
                 <div class="project-card">
                     <img src="media/rock-paper-scissors.webp" alt="rock-paper-scissors">
                     <h2>Rock Paper Scissors</h2>
                     <p>A fun little project that helped me polish my JS skills.</p>
-                    <button onclick="window.open('https:\/\/afnaan-ahmed.github.io/Rock-Paper-Scissors/')">Visit</button>
+                    <button aria-label="button" onclick="window.open('https:\/\/afnaan-ahmed.github.io/Rock-Paper-Scissors/')">Visit</button>
                 </div>
               
                 <div class="project-card">
                     <img src="media/project-overhaul.webp" alt="project-overhaul">
                     <h2>Project Overhaul</h2>
                     <p>A versatile command-line tool written in Python that brings together a collection of essential penetration testing tools into one unified interface.</p>
-                    <button onclick="window.open('https:\/\/github.com/Afnaan-Ahmed/Project-Overhaul')">Visit</button>
+                    <button aria-label="button" onclick="window.open('https:\/\/github.com/Afnaan-Ahmed/Project-Overhaul')">Visit</button>
                 </div>
               
                 <div class="project-card">
                     <img src="media/nmap-payload-generator.webp" alt="nmap-payload-generator">
                     <h2>Nmap Payload Generator</h2>
                     <p>Interactive command-line interface (CLI) for inputting Nmap command and switches.</p>
-                    <button onclick="window.open('https:\/\/github.com/Afnaan-Ahmed/nmap-payload-generator')">Visit</button>
+                    <button aria-label="button" onclick="window.open('https:\/\/github.com/Afnaan-Ahmed/nmap-payload-generator')">Visit</button>
                 </div>
             </div>
         </div>

@@ -1,0 +1,392 @@
+body {
+    background: linear-gradient(#153476, #041258);
+}
+
+.intro-section {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.264);
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.intro-section img {
+    height: 500px;
+}
+
+.intro-text {
+    padding: 0;
+    width: 650px;
+}
+.intro-text h4 {
+    margin-bottom: 20PX;
+    font-size: 20px;
+}
+.intro-text h1 {
+    margin: 0;
+    text-align: left;
+    font-size: 55px;
+    animation: none;
+}
+.intro-text p {
+    font-size: 20px;
+}
+
+.cards-container {
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.card {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.303);
+    border-radius: 50px;
+    padding: 25px;;
+}
+.card:hover {
+    scale: 1.05;
+    transition: all 0.15s;
+}
+.card img {
+    width: 40px;
+    height: 40px;
+    border: white solid 2px;
+    border-radius: 25px;
+    padding: 15px;
+}
+.card h3 {
+    font-size: 28px;
+}
+.card-top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.pagespeed-section {
+    padding: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    gap: 40px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.303);
+    border-radius: 50px;
+    align-items: center;
+}
+.pagespeed-text {
+    padding-left: 40px;
+
+}
+.pagespeed-section img {
+    height: 500px;
+    border-radius: 50px;
+}
+
+.portfolio-section {
+    margin: 0;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.303);
+    gap: 60px;
+    transition: none;
+}
+.portfolio-section:hover {
+    transition: none;
+    scale: none;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.303);
+
+}
+.portfolio-section h1 {
+    margin: 0;
+}
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.project-card {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.269);
+    height: 550px;
+}
+.project-card h2 {
+    margin-bottom: 10px;
+}
+.project-card p {
+    margin-top: 0;
+    line-height: 30px;
+}
+
+.pricing-section {
+    margin: 0;
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.303);
+    border-radius: 40px;
+    justify-content: center;
+}
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+}
+.packages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+}
+.pricing-card{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.303);
+    padding: 50px;
+    border-radius: 40px;
+}
+.pricing-card ul li {
+    list-style-type: circle;
+}
+.pricing-card ul ul li {
+    list-style-type: disc;
+    line-height: 40px;
+}
+.standard-package {
+    border: 3px solid rgba(181, 252, 74, 0.923);
+    box-shadow: inset 0px 0px 10px rgba(172, 255, 47, 0.082);
+
+}
+.addon {
+    border: 2px solid rgba(161, 254, 21, 0.809);
+    box-shadow: 0px 0px 50px rgba(172, 255, 47, 0.082);
+    text-align: center;
+    justify-content: center;
+}
+.contact-container {
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+/*      Responsive Part      */
+
+
+
+
+
+/* Mobile Devices */
+@media (max-width: 512px) {
+
+    body {
+        font-size: 16px;
+    }
+    .intro-section {
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+    }
+
+    .intro-section img {
+        height: 200px;
+    }
+
+    .intro-text {
+        width: 300px;
+    }
+    .intro-text h4 {
+        width: 200px;
+        font-size: 14px;
+    }
+    .intro-text h1 {
+        text-align: center;
+        font-size: 28px;
+        width: 350px;
+    }
+    .intro-text p {
+        font-size: 16px;
+    }
+
+
+    .pagespeed-section {
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+    .pagespeed-text {
+        padding-left: 20px;
+
+    }
+    .pagespeed-section img {
+        height: 250px;
+    }
+
+    .pricing-section {
+        margin-top: 40px;
+        padding: 20px;
+        flex-direction: column;
+    }
+    .packages {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 40px;
+    }
+    .pricing-card{
+        padding: 20px;
+    }
+    .pricing-card ul ul li {
+        line-height: 20px;
+        margin-top: 15px;
+    }
+
+    .contact-section {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+    }
+    .contact {
+        width: 230px;
+    }
+
+
+}
+
+
+
+
+
+
+
+/* Tablet Devices */
+@media (min-width: 513px) and (max-width: 1024px) {
+    button {
+        padding: 8px;
+    }
+    .intro-section {
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        
+    }
+
+    .intro-section img {
+        height: 350px;
+    }
+
+    .cards-container {
+        gap: 30px;
+    }
+
+    .card {
+        width: 280px;
+        padding: 25px;;
+    }
+
+    .pagespeed-section {
+        margin-top: 40px;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        gap: 40px;
+    }
+    .pagespeed-text {
+        padding-left: 20px;
+        font-size: 20px;
+
+    }
+    .pagespeed-section img {
+        height: 400px;
+    }
+    .project-card {
+        height: 500px;
+        width: 300px;
+    }
+    .project-card img {
+        height: 150px;
+        width: auto;
+    }
+    .project-card h2 {
+        font-size: 24px;
+    }
+    .project-card p {
+        font-size: 18px;
+    }
+
+    .pricing-section {
+        flex-direction: column;
+    }
+    .packages {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 40px;
+    }
+    .pricing-card{
+        padding: 40px;
+    }
+    .pricing-card ul ul li {
+        line-height: 30px;
+        margin-top: 15px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+/* Large Devices */
+@media (min-width: 1025px) and (max-width: 1919px){
+    button {
+        padding: 10px;
+    }
+    .intro-section img {
+        height: 350px;
+    }
+    .pagespeed-section p {
+        font-size: 20px;
+    }
+    .pricing-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pricing-card {
+        padding: 30px;
+    }
+    .pricing-card li {
+        font-size: 18px;
+    }
+    .pricing-card ul ul li {
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+}
