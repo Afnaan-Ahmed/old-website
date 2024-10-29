@@ -204,6 +204,26 @@ body {
 
 
 /* Mobile Devices */
+@media (max-width:400px) {
+    .intro-section {
+        gap: 0px;
+    }
+    .intro-section img {
+        scale: 0.8;
+    }
+    .intro-text {
+        scale: 0.9;
+    }
+    .pagespeed-section img {
+        scale: 0.75;
+    }
+    .contact {
+        scale: 0.8;
+    }
+
+}
+
+
 @media (max-width: 512px) {
 
     body {
